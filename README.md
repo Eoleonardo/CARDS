@@ -12,4 +12,3 @@ Font Awesome: Ícones adicionais foram incluídos usando a biblioteca Font Aweso
 
 Google Fonts: A fonte "Material Icons" do Google Fonts foi incorporada para adicionar ícones específicos.
 
-J
