@@ -1,0 +1,78 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #333;
+}
+
+.navbar {
+    color: #333;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Estilos para os cards */
+/* Estilos para os cards */
+.card {
+    margin: 10px;
+    padding: 0;
+    width: 18%;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease; /* Adiciona transição de transformação */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Aumenta o tamanho em 5% quando o mouse passar por cima */
+}
+
+
+.card-header img {
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card h2 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.card p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+/* Estilos para telas menores (tablets e dispositivos maiores) */
+@media (max-width: 1024px) {
+    .card {
+        width: calc(50% - 20px);
+    }
+}
+
+/* Estilos para telas menores (smartphones) */
+@media (max-width: 768px) {
+    .card {
+        width: calc(100% - 20px);
+    }
+}
